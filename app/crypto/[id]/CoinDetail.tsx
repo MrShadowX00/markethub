@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import { createChart, ColorType, AreaSeries } from "lightweight-charts";
+import { initAnalytics, trackPageView } from "../../firebase";
 import type { IChartApi, ISeriesApi, AreaSeriesPartialOptions, Time } from "lightweight-charts";
 
 /* ---------- types ---------- */

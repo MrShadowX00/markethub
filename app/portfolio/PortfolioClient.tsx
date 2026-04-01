@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { initAnalytics, trackPageView } from "../firebase";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */

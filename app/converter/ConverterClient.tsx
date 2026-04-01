@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
+import { initAnalytics, trackPageView } from "../firebase";
 
 /* ---------- constants ---------- */
 const CRYPTO_LIST = [

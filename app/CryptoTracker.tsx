@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo, useCallback } from "react";
+import { initAnalytics, trackPageView } from "./firebase";
 
 /* ---------- types ---------- */
 interface GlobalData {

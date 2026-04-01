@@ -44,6 +44,22 @@ export const metadata: Metadata = {
     "UZS",
     "EUR",
     "GBP",
+    "crypto price tracker",
+    "bitcoin price today",
+    "ethereum price",
+    "crypto market cap",
+    "forex rates today",
+    "usd to uzs",
+    "dollar to sum",
+    "currency exchange",
+    "crypto technical analysis",
+    "rsi indicator",
+    "macd crypto",
+    "fear and greed index crypto",
+    "crypto portfolio tracker",
+    "crypto converter",
+    "btc to usd",
+    "eth to usd",
   ],
   openGraph: {
     type: "website",
@@ -82,6 +98,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <head>
+        <meta name="google-site-verification" content="0LCEmavQtPu9bTfUcVgs4k4ZDKutv9tbz6Iav18HHMU" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7668896830420502"

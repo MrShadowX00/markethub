@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { initAnalytics, trackPageView } from "../firebase";
 
 type FearGreedEntry = {
   value: string;

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { initAnalytics, trackPageView } from "../firebase";
 
 /* ─── coin & timeframe options ─── */
 const COINS = [
