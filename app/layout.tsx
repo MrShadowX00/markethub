@@ -81,7 +81,7 @@ export const metadata: Metadata = {
 };
 
 const navItems = [
-  { href: "/crypto", label: "Crypto" },
+  { href: "/", label: "Crypto" },
   { href: "/forex", label: "Forex" },
   { href: "/stocks", label: "Stocks" },
   { href: "/technical-analysis", label: "Technical Analysis" },
@@ -160,7 +160,7 @@ export default function RootLayout({
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li>
-                    <a href="/crypto" className="hover:text-white">
+                    <a href="/" className="hover:text-white">
                       Cryptocurrency
                     </a>
                   </li>
