@@ -1,0 +1,10 @@
+services:
+  market-web:
+    build: .
+    container_name: market-web
+    ports:
+      - "3012:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
